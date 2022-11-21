@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: -1;
+}
+
+div>.content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div>.content>h1 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+}
+
+div>.content>p {
+    margin-bottom: 0px;
+    padding-top: 1em;
+    font-size: 1.46em;
+    line-height: 1.24;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #330867;
+}
+
+.image>img {
+    padding-top: 100px;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+div>.content>button {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-top: 100px;
+}
+
+.button-29 {
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.lable {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 30px;
+}
+
+.lable1 {
+    width: 100px;
+    height: auto;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.lable2 {
+    width: 100px;
+    height: auto;
+}
+
+.lable3 {
+    width: 100px;
+    height: auto;
+}
+
+.lable4 {
+    width: 100px;
+    height: auto;
+}
+
+.banner {
+    position: relative;
+}
+
+.text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    text-shadow: 0 0 18px #131313;
+    transform: translateY(-50%);
+}
+
+.b1 {
+    animation: ani1 15s infinite;
+}
+
+.b2 {
+    animation: ani2 15s infinite;
+}
+
+.b3 {
+    animation: ani3 15s infinite;
+}
+
+.b4 {
+    animation: ani4 15s infinite;
+}
+
+.b5 {
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani2 {
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani3 {
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani4 {
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani5 {
+    80% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+#navbar-icon {
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 65px;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    top: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav-title {
+    padding: 40px;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    float: left;
+    font-size: 22px;
+    color: rgb(122, 121, 121);
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 20px 70px 20px 20px;
+    text-decoration: none;
+    color: #efefef;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    ;
+
+}
+
+.nav>.nav-links>a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+
+
+.nikola>img {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 0;
+}
+.nikola> .text_image{
+    color: #000;
+    z-index: 1;
+}
